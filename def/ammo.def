@@ -51,10 +51,10 @@ entityDef ammo_machinegun
 
 	"editor_usage"				"Large Clips"
 
-	"spawnclass"				""
-	"model"					"models/pick_ups/sp_pickups/sp_mg_rounds.lwo"
+	"spawnclass"				"idItem"
+	"model"					"models/pick_ups/sp_pickups/sp_grenades.lwo"
 	"size"					"32 32 32"
-	"inv_ammo_machinegun"			"50"
+	"inv_ammo_grenadelauncher"			"1"
 
 	"inv_name"				"#str_107411"
 	"inv_icon"				"gfx/guis/hud/icons/item_machinegun.tga"
@@ -87,11 +87,11 @@ entityDef ammo_nailgun
 
 	"editor_usage"				"Large Nails"
 
-	"spawnclass"				""
-	"model"					"models/pick_ups/sp_pickups/sp_nails.lwo"
+	"spawnclass"				"idItem"
+	"model"					"models/pick_ups/sp_pickups/sp_grenades.lwo"
 	"action"				"sound/electronics/1shot_beep_02.wav"
 	"size"					"32 32 32"
-	"inv_ammo_nailgun"			"40"
+	"inv_ammo_grenadelauncher"			"1"
 
 	"inv_name"				"#str_107412"
 	"inv_icon"				"gfx/guis/hud/icons/item_nailgun.tga"
@@ -122,11 +122,11 @@ entityDef ammo_railgun
 
 	"editor_usage"				"Large Slugs"
 
-	"spawnclass"				""
-	"model"					"models/pick_ups/sp_pickups/sp_rails.lwo"
+	"spawnclass"				"idItem"
+	"model"					"models/pick_ups/sp_pickups/sp_grenades.lwo"
 	"size"					"32 32 32"
 
-	"inv_ammo_railgun"			"5"
+	"inv_ammo_grenadelauncher"			"1"
 	"inv_name"				"#str_107413"
 	"inv_icon"				"gfx/guis/hud/icons/item_railgun.tga"
 
@@ -156,11 +156,11 @@ entityDef ammo_shotgun
 
 	"editor_usage"				"Large Shells"
 
-	"spawnclass"				""
-	"model"					"models/pick_ups/sp_pickups/sp_shotgun.lwo"
+	"spawnclass"				"idItem"
+	"model"					"models/pick_ups/sp_pickups/sp_grenades.lwo"
 	"size"					"32 32 32"
 
-	"inv_ammo_shotgun"			"12"
+	"inv_ammo_grenadelauncher"			"1"
 	"inv_name"				"#str_107414"
 	"inv_icon"				"gfx/guis/hud/icons/item_shotgun.tga"
 
@@ -190,11 +190,11 @@ entityDef ammo_hyperblaster
 
 	"editor_usage"				"HyperBlaster Ammo"
 
-	"spawnclass"				""
-	"model"					"models/pick_ups/sp_pickups/sp_hyper_ammo.lwo"
+	"spawnclass"				"idItem"
+	"model"					"models/pick_ups/sp_pickups/sp_grenades.lwo"
 	"size"					"32 32 32"
 
-	"inv_ammo_hyperblaster"			"40"
+	"inv_ammo_grenadelauncher"			"1"
 	"inv_name"				"#str_107415"
 	"inv_icon"				"gfx/guis/hud/icons/item_hyperblaster.tga"
 
@@ -221,11 +221,11 @@ entityDef ammo_rocketlauncher
 
 	"editor_usage"				"Rocket Launcher Ammo"
 
-	"spawnclass"				""
-	"model"					"models/pick_ups/sp_pickups/sp_rockets.lwo"
+	"spawnclass"				"idItem"
+	"model"					"models/pick_ups/sp_pickups/sp_grenades.lwo"
 	"size"					"32 32 32"
 
-	"inv_ammo_rocketlauncher"		"6"
+	"inv_ammo_grenadelauncher"		"1"
 	"inv_name"				"#str_107416"
 	"inv_icon"				"gfx/guis/hud/icons/item_rocket.tga"
 
@@ -256,7 +256,7 @@ entityDef ammo_grenadelauncher
 	"model"					"models/pick_ups/sp_pickups/sp_grenades.lwo"
 	"size"					"32 32 32"
 
-	"inv_ammo_grenadelauncher"		"10"
+	"inv_ammo_grenadelauncher"		"1"
 	"inv_name"				"#str_107417"
 	"inv_icon"				"gfx/guis/hud/icons/item_grenade.tga"
 
@@ -283,11 +283,11 @@ entityDef ammo_lightninggun
 
 	"editor_usage"				"Lightning Gun Ammo"
 
-	"spawnclass"				""
-	"model"					"models/pick_ups/sp_pickups/sp_lightning.lwo"
+	"spawnclass"				"idItem"
+	"model"					"models/pick_ups/sp_pickups/sp_grenades.lwo"
 	"size"					"32 32 32"
 
-	"inv_ammo_lightninggun"			"80"
+	"inv_ammo_grenadelauncher"			"1"
 	"inv_name"				"#str_107418"
 	"inv_icon"				"gfx/guis/hud/icons/item_lightning.tga"
 
@@ -317,11 +317,11 @@ entityDef ammo_dmg
 
 	"editor_usage"				"Dark Matter Gun Ammo"
 
-	"spawnclass"				""
-	"model"					"models/pick_ups/sp_pickups/sp_darkmatter.lwo"
+	"spawnclass"				"idItem"
+	"model"					"models/pick_ups/sp_pickups/sp_grenades.lwo"
 	"size"					"32 32 32"
 
-	"inv_ammo_dmg"				"5"
+	"inv_ammo_grenadelauncher"				"1"
 	"inv_name"				"#str_107419"
 	"inv_icon"				"gfx/guis/hud/icons/item_darkmatter.tga"
 
@@ -358,7 +358,7 @@ entityDef ammo_napalmgun
 																			// a minor red flag
 	"size"						"32 32 32"
 
-	"inv_ammo_napalmgun"		"10"
+	"inv_ammo_grenadelauncher"		"1"
 	"inv_name"					"Napalm Gun Ammo"
 	"inv_icon"					"gfx/guis/hud/icons/item_fire.tga"
 	"mtr_simple_icon"			"gfx/guis/hud/simpleicons/ammo_napalmgun"
