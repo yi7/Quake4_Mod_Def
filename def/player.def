@@ -656,7 +656,7 @@ entityDef player_marine
 	"weapon3_cycle"						"1"
 
 	"def_weapon4"						"weapon_grenadelauncher"
-	"weapon4_best"						"0"
+	"weapon4_best"						"1" //was 0
 	"weapon4_cycle"						"1"
 
 	"def_weapon5"						"weapon_nailgun"
@@ -748,7 +748,7 @@ entityDef player_marine
 	"max_ammo_hyperblaster"					"400"
 	"max_ammo_napalmgun"					"40"
 	"max_ammo_rocketlauncher"				"40"
-	"max_ammo_grenadelauncher"				"50"
+	"max_ammo_grenadelauncher"				"3" //Can only carry three bombs
 	"max_ammo_lightninggun"					"400"
 	"max_ammo_dmg"						"25"
 	"max_ammo_none"						"-1"
@@ -1054,7 +1054,7 @@ entityDef player_marine_mp
 {
 	"inherit"			"player_marine"
 
-	"weapon"			"weapon_machinegun,weapon_gauntlet"
+	"weapon"			"weapon_grenadelauncher,weapon_gauntlet" //Start with grenade launcher
 	"current_weapon"		"1"
 
 	// replce blaster with gauntlet in MP
@@ -1079,13 +1079,13 @@ entityDef player_marine_mp
 
 	"ammo_none"			"-1"
 	"ammo_railgun"			"0"
-	"ammo_machinegun"		"100"
+	"ammo_machinegun"		"0"
 	"ammo_nailgun"			"0"
 	"ammo_blaster"			"-1"
 	"ammo_shotgun"			"0"
 	"ammo_hyperblaster"		"0"
 	"ammo_rocketlauncher"		"0"
-	"ammo_grenadelauncher"		"0"
+	"ammo_grenadelauncher"		"3"
 
 	"powerup_effect_joints"		"*body -*r_wrist r_wrist -*l_wrist l_wrist"
 

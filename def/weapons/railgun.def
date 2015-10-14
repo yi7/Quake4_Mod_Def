@@ -70,7 +70,7 @@ entityDef weapon_railgun
 
 	"editor_usage"				"Railgun"
 
-	"spawnclass"				"idItem"
+	"spawnclass"				""
 	"weaponclass"				"rvWeaponRailgun"
 	"size"					"32 32 32"
 	"model_view" 				"weapon_railgun_view"

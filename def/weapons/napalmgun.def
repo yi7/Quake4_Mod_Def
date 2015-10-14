@@ -53,7 +53,7 @@ entityDef weapon_napalmgun
 
 	"editor_usage"				"Napalm Launcher"
 
-	"spawnclass"				"idItem"
+	"spawnclass"				""
 	"weaponclass"				"WeaponNapalmGun"
 	"size"						"32 32 32"
   	"model_view"				"weapon_napalmgun_view"
