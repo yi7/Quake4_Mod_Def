@@ -695,10 +695,10 @@ entityDef player_marine
 	"weapon"						"weapon_blaster"
 	"current_weapon"					"0"
 
-	"pm_jumpheight"						"300" //Was 48
-	"pm_stepsize"						"16" //Was 16
+	"pm_jumpheight"						"0" //No jump
+	"pm_stepsize"						"16"
 	"pm_speed"						"160"  	//DOOM speed was 140
-	"pm_walkspeed"						"200" //Was 80
+	"pm_walkspeed"						"100" //Speed walk
 	"pm_crouchspeed"					"80"
 	"pm_noclipspeed"					"270"	
 	"pm_minviewpitch"					"-89"	// looking up
@@ -740,17 +740,18 @@ entityDef player_marine
 	"ammo_lightninggun"					"0"
 	"ammo_none"						"-1"
 
-	"max_ammo_blaster"					"-1"
-	"max_ammo_railgun"					"50"
-	"max_ammo_machinegun"					"300"
-	"max_ammo_nailgun"					"300"
-	"max_ammo_shotgun"					"50"
-	"max_ammo_hyperblaster"					"400"
-	"max_ammo_napalmgun"					"40"
-	"max_ammo_rocketlauncher"				"40"
-	"max_ammo_grenadelauncher"				"3" //Can only carry three bombs
-	"max_ammo_lightninggun"					"400"
-	"max_ammo_dmg"						"25"
+	//max ammo 0 so that other ammo will not be picked up when full on grenades
+	"max_ammo_blaster"					"0"
+	"max_ammo_railgun"					"0"
+	"max_ammo_machinegun"				"0"
+	"max_ammo_nailgun"					"0"
+	"max_ammo_shotgun"					"0"
+	"max_ammo_hyperblaster"				"0"
+	"max_ammo_napalmgun"				"0"
+	"max_ammo_rocketlauncher"			"0"
+	"max_ammo_grenadelauncher"			"1" //Can only carry one bombs
+	"max_ammo_lightninggun"				"0"
+	"max_ammo_dmg"						"0"
 	"max_ammo_none"						"-1"
 
 	// inventory items
@@ -1054,11 +1055,11 @@ entityDef player_marine_mp
 {
 	"inherit"			"player_marine"
 
-	"weapon"			"weapon_grenadelauncher,weapon_gauntlet" //Start with grenade launcher
+	"weapon"			"weapon_grenadelauncher" //Start with grenade launcher
 	"current_weapon"		"1"
 
 	// replce blaster with gauntlet in MP
-	"def_weapon0"						"weapon_gauntlet"
+	"def_weapon0"						"weapon_grenadelauncher"
 	"weapon0_best"						"1"
 	"weapon0_cycle"						"1"
 	"weapon0_flashlight"					"0"
@@ -1085,7 +1086,7 @@ entityDef player_marine_mp
 	"ammo_shotgun"			"0"
 	"ammo_hyperblaster"		"0"
 	"ammo_rocketlauncher"		"0"
-	"ammo_grenadelauncher"		"3"
+	"ammo_grenadelauncher"		"0" //start with no ammo
 
 	"powerup_effect_joints"		"*body -*r_wrist r_wrist -*l_wrist l_wrist"
 

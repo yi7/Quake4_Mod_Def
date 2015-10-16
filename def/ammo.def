@@ -40,7 +40,7 @@ entityDef ammo_default
 
 	"fx_respawn"				"effects/mp/itemrespawn.fx"
 	"snd_acquire"				"items_ammo_default"
-	"respawn"				"40"
+	"respawn"				"20" //20sec to respawn ammo
 	"editor_ignore"				"1"
 	"inherit"				"ammo_triggersize_SP"
 }
@@ -56,8 +56,8 @@ entityDef ammo_machinegun
 	"size"					"32 32 32"
 	"inv_ammo_grenadelauncher"			"1"
 
-	"inv_name"				"#str_107411"
-	"inv_icon"				"gfx/guis/hud/icons/item_machinegun.tga"
+	"inv_name"				"#str_107417"
+	"inv_icon"				"gfx/guis/hud/icons/item_grenade.tga"
 
 	"dbTitle"				"Machinegun Rounds"
 	"dbText"				"Ammo for the machinegun.... <more text here>"
@@ -74,8 +74,9 @@ entityDef ammo_machinegun_mp
 	"editor_ignore"				"1"
 	
 	"model"					"models/items/ammo/ammo_box.lwo"	
-	"skin"					"skins/items/ammo/machinegun"
-	"skin_pickup"				"skins/items/ammo/machinegun_pickup"
+	"skin"					"skins/items/ammo/grenadelauncher" //changed box color green
+	"fx_idle"				"effects/mp/health_green" //made box glow
+	"skin_pickup"				"" //removed outline of ammo
 	"inv_ammo_machinegun"			"60"
 	"inv_icon"				"gfx/guis/hud/icons/ammo_machinegun_colored"
 	"mtr_simple_icon"				"simpleicons/ammo_machinegun_colored"
@@ -93,8 +94,8 @@ entityDef ammo_nailgun
 	"size"					"32 32 32"
 	"inv_ammo_grenadelauncher"			"1"
 
-	"inv_name"				"#str_107412"
-	"inv_icon"				"gfx/guis/hud/icons/item_nailgun.tga"
+	"inv_name"				"#str_107417"
+	"inv_icon"				"gfx/guis/hud/icons/item_grenade.tga"
 
 	"dbTitle"				"Nailgun Nails"
 	"dbText"				"Ammo for the nailgun.... <more text here>"
@@ -109,8 +110,9 @@ entityDef ammo_nailgun_mp
 	"editor_ignore"				"1"
 	
 	"model"					"models/items/ammo/ammo_box.lwo"	
-	"skin"					"skins/items/ammo/nailgun"
-	"skin_pickup"				"skins/items/ammo/nailgun_pickup"
+	"skin"					"skins/items/ammo/grenadelauncher" //changed box color green
+	"fx_idle"				"effects/mp/health_green" //made box glow
+	"skin_pickup"				"" //removed outline of ammo
 	"inv_ammo_nailgun"			"50"
 	"inv_icon"				"gfx/guis/hud/icons/ammo_nailgun_colored"
 	"mtr_simple_icon"				"simpleicons/ammo_nailgun_colored"
@@ -127,8 +129,8 @@ entityDef ammo_railgun
 	"size"					"32 32 32"
 
 	"inv_ammo_grenadelauncher"			"1"
-	"inv_name"				"#str_107413"
-	"inv_icon"				"gfx/guis/hud/icons/item_railgun.tga"
+	"inv_name"				"#str_107417"
+	"inv_icon"				"gfx/guis/hud/icons/item_grenade.tga"
 
 	"dbTitle"				"Railgun Slugs"
 	"dbText"				"Ammo for the railgun.... <more text here>"
@@ -143,8 +145,9 @@ entityDef ammo_railgun_mp
 	"editor_ignore"				"1"
 	
 	"model"					"models/items/ammo/ammo_box.lwo"		
-	"skin"					"skins/items/ammo/railgun"
-	"skin_pickup"				"skins/items/ammo/railgun_pickup"	
+	"skin"					"skins/items/ammo/grenadelauncher" //changed box color green
+	"fx_idle"				"effects/mp/health_green" //made box glow
+	"skin_pickup"				"" //removed outline of ammo
 	"inv_ammo_railgun"			"7"
 	"inv_icon"				"gfx/guis/hud/icons/ammo_railgun_colored"
 	"mtr_simple_icon"				"simpleicons/ammo_railgun_colored"
@@ -161,8 +164,8 @@ entityDef ammo_shotgun
 	"size"					"32 32 32"
 
 	"inv_ammo_grenadelauncher"			"1"
-	"inv_name"				"#str_107414"
-	"inv_icon"				"gfx/guis/hud/icons/item_shotgun.tga"
+	"inv_name"				"#str_107417"
+	"inv_icon"				"gfx/guis/hud/icons/item_grenade.tga"
 
 	"dbTitle"				"Shotgun Shells"
 	"dbText"				"Ammo for the shotgun.... <more text here>"
@@ -177,8 +180,9 @@ entityDef ammo_shotgun_mp
 	"editor_ignore"				"1"
 	
 	"model"					"models/items/ammo/ammo_box.lwo"	
-	"skin"					"skins/items/ammo/shotgun"
-	"skin_pickup"				"skins/items/ammo/shotgun_pickup"
+	"skin"					"skins/items/ammo/grenadelauncher" //changed box color green
+	"fx_idle"				"effects/mp/health_green" //made box glow
+	"skin_pickup"				"" //removed outline of ammo
 	"inv_ammo_shotgun"			"16"
 	"inv_icon"				"gfx/guis/hud/icons/ammo_shotgun_colored"
 	"mtr_simple_icon"				"simpleicons/ammo_shotgun_colored"
@@ -195,8 +199,8 @@ entityDef ammo_hyperblaster
 	"size"					"32 32 32"
 
 	"inv_ammo_grenadelauncher"			"1"
-	"inv_name"				"#str_107415"
-	"inv_icon"				"gfx/guis/hud/icons/item_hyperblaster.tga"
+	"inv_name"				"#str_107417"
+	"inv_icon"				"gfx/guis/hud/icons/item_grenade.tga"
 
 	"editor_ignore"				"0"
 }
@@ -208,8 +212,9 @@ entityDef ammo_hyperblaster_mp
 	"editor_ignore"				"1"
 	
 	"model"					"models/items/ammo/ammo_box.lwo"	
-	"skin"					"skins/items/ammo/hyperblaster"
-	"skin_pickup"				"skins/items/ammo/hyperblaster_pickup"
+	"skin"					"skins/items/ammo/grenadelauncher" //changed box color green
+	"fx_idle"				"effects/mp/health_green" //made box glow
+	"skin_pickup"				"" //removed outline of ammo
 	"inv_ammo_hyperblaster"			"50"
 	"inv_icon"				"gfx/guis/hud/icons/ammo_hyperblaster_colored"
 	"mtr_simple_icon"				"simpleicons/ammo_hyperblaster_colored"
@@ -226,8 +231,8 @@ entityDef ammo_rocketlauncher
 	"size"					"32 32 32"
 
 	"inv_ammo_grenadelauncher"		"1"
-	"inv_name"				"#str_107416"
-	"inv_icon"				"gfx/guis/hud/icons/item_rocket.tga"
+	"inv_name"				"#str_107417"
+	"inv_icon"				"gfx/guis/hud/icons/item_grenade.tga"
 
 	"editor_ignore"				"0"
 }
@@ -239,8 +244,9 @@ entityDef ammo_rocketlauncher_mp
 	"editor_ignore"				"1"
 	
 	"model"					"models/items/ammo/ammo_box.lwo"
-	"skin"					"skins/items/ammo/rocketlauncher"
-	"skin_pickup"				"skins/items/ammo/rocketlauncher_pickup"
+	"skin"					"skins/items/ammo/grenadelauncher" //changed box color green
+	"fx_idle"				"effects/mp/health_green" //made box glow
+	"skin_pickup"				"" //removed outline of ammo
 	"inv_ammo_rocketlauncher"		"5"
 	"inv_icon"				"gfx/guis/hud/icons/ammo_rocket_colored"
 	"mtr_simple_icon"				"simpleicons/ammo_rocket_colored"
@@ -270,8 +276,9 @@ entityDef ammo_grenadelauncher_mp
 	"editor_ignore"				"1"
 	
 	"model"					"models/items/ammo/ammo_box.lwo"	
-	"skin"					"skins/items/ammo/grenadelauncher"
-	"skin_pickup"				"skins/items/ammo/grenadelauncher_pickup"
+	"skin"					"skins/items/ammo/grenadelauncher" //changed box color green
+	"fx_idle"				"effects/mp/health_green" //made box glow
+	"skin_pickup"				"" //removed outline of ammo
 	"inv_ammo_grenadelauncher"		"5"
 	"inv_icon"				"gfx/guis/hud/icons/ammo_grenade_colored"
 	"mtr_simple_icon"				"simpleicons/ammo_grenade_colored"
@@ -288,8 +295,8 @@ entityDef ammo_lightninggun
 	"size"					"32 32 32"
 
 	"inv_ammo_grenadelauncher"			"1"
-	"inv_name"				"#str_107418"
-	"inv_icon"				"gfx/guis/hud/icons/item_lightning.tga"
+	"inv_name"				"#str_107417"
+	"inv_icon"				"gfx/guis/hud/icons/item_grenade.tga"
 
 	"editor_ignore"				"0"
 	
@@ -303,8 +310,9 @@ entityDef ammo_lightninggun_mp
 	"editor_ignore"				"1"
 	
 	"model"					"models/items/ammo/ammo_box.lwo"	
-	"skin"					"skins/items/ammo/lightninggun"
-	"skin_pickup"				"skins/items/ammo/lightninggun_pickup"
+	"skin"					"skins/items/ammo/grenadelauncher" //changed box color green
+	"fx_idle"				"effects/mp/health_green" //made box glow
+	"skin_pickup"				"" //removed outline of ammo
 	"inv_ammo_lightninggun"			"60"
 	"inv_icon"				"gfx/guis/hud/icons/ammo_lightning_colored"
 	"mtr_simple_icon"				"simpleicons/ammo_lightning_colored"
@@ -322,8 +330,8 @@ entityDef ammo_dmg
 	"size"					"32 32 32"
 
 	"inv_ammo_grenadelauncher"				"1"
-	"inv_name"				"#str_107419"
-	"inv_icon"				"gfx/guis/hud/icons/item_darkmatter.tga"
+	"inv_name"				"#str_107417"
+	"inv_icon"				"gfx/guis/hud/icons/item_grenade.tga"
 
 	"editor_ignore"				"0"
 	
@@ -337,8 +345,9 @@ entityDef ammo_dmg_mp
 	"editor_ignore"				"1"
 	
 	"model"					"models/items/ammo/ammo_box.lwo"	
-	"skin"					"skins/items/ammo/dmg"
-	"skin_pickup"				"skins/items/ammo/dmg_pickup"
+	"skin"					"skins/items/ammo/grenadelauncher" //changed box color green
+	"fx_idle"				"effects/mp/health_green" //made box glow
+	"skin_pickup"				"" //removed outline of ammo
 	"inv_ammo_dmg"				"5"
 	"inv_icon"				"gfx/guis/hud/icons/ammo_darkmatter_colored"
 	"mtr_simple_icon"				"simpleicons/ammo_darkmatter_colored"
@@ -359,8 +368,8 @@ entityDef ammo_napalmgun
 	"size"						"32 32 32"
 
 	"inv_ammo_grenadelauncher"		"1"
-	"inv_name"					"Napalm Gun Ammo"
-	"inv_icon"					"gfx/guis/hud/icons/item_fire.tga"
+	"inv_name"					"#str_107417"
+	"inv_icon"					"gfx/guis/hud/icons/item_grenade.tga"
 	"mtr_simple_icon"			"gfx/guis/hud/simpleicons/ammo_napalmgun"
 
 	"editor_ignore"				"0"
@@ -373,8 +382,9 @@ entityDef ammo_napalmgun_mp
 	"editor_ignore"				"1"
 	
 	"model"						"models/items/ammo/ammo_box.lwo"	
-	"skin"						"skins/items/ammo/flamegun"
-	"skin_pickup"				"skins/items/ammo/flamegun_pickup"
+	"skin"						"skins/items/ammo/grenadelauncher" //changed box color green
+	"fx_idle"				"effects/mp/health_green" //made box glow
+	"skin_pickup"				"" //removed outline of ammo
 	"inv_ammo_napalmgun"		"10"
 	"inv_icon"					"gfx/guis/hud/icons/item_fire_colored"
 } 

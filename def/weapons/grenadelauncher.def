@@ -59,7 +59,7 @@ entityDef weapon_grenadelauncher
 
 	"editor_usage"				"Grenade Launcher"
 
-	"spawnclass"				"idItem"
+	"spawnclass"				""
 	"weaponclass"				"rvWeaponGrenadeLauncher"
 	"size"						"32 32 32"
   	"model_view"				"weapon_grenadelauncher_view"
@@ -74,14 +74,14 @@ entityDef weapon_grenadelauncher
 	"joint_view_barrel"			"barrel"
 	"joint_world_flash"			"muzzle_flash"
 
-	"fireRate"					".8"
+	"fireRate"					"0.8"
 	"spread"					"0"
 	
 	// the direction of projectile launches will be modified by this
 	"dirOffset"					"0 0 .2"
 	
 	"inv_weapon"				"weapon_grenadelauncher"
-	"inv_start_ammo_grenadelauncher"	"3"
+	"inv_start_ammo_grenadelauncher"	"0" //start with no ammo
 	"inv_item"					"1"
 	"inv_icon"					"gfx/guis/hud/icons/item_grenade.tga"
 	"inv_name"					"#str_107403"	
@@ -312,7 +312,7 @@ entityDef damage_grenadeDirect_mp
 {
 	"inherit"					"damage_grenadeDirect"
 	"damage"					"100"
-	"knockback"					"100"
+	"knockback"					"50"
 }
 
 entityDef damage_grenadeSplash 
