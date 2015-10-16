@@ -1,6 +1,7 @@
 # Quake4_Mod_Def
-IT266 classmod
 ```
+IT266 classmod
+
 def files for Quake 4
 branch: midterm
 modifications include no jump, max ammo reduced to 1, changing default weapon, etc...
